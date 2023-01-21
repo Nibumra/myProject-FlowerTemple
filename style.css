@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  padding: 50px;
+  /* background-image: url(./Img/IjaTitanic.jpg);
+      background-size: cover; */
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+}
+
+#page-title {
+  text-align: center;
+}
+
+#input-number {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#output {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  height: 250px;
+  /* width: 650px;
+    height: 250px; */
+  border-radius: 5px;
+}
+
+.btn {
+  background: #aab7b8;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  color: #212f3c;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  /* width: 150px; */
+  align-self: center;
+}
+
+.btn:hover {
+  background: #839192;
+}
+
+.btn:active {
+  background: #5f6a6a;
+}
+
+.box-title {
+  margin-top: 10px;
+  font-size: 12px;
+  font-family: cursive;
+  margin-bottom: 20px;
+  color: #066066;
+  text-align: center;
+}
+
+.form-label {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.btn-center {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+/* @media only screen and (min-width:300px) {
+      .main-box {
+          display: block;
+          width: 300px;
+          height: 500px;
+      }
+  } */
